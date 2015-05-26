@@ -10,7 +10,7 @@ authorization:
     - mongo:omh-mongo
     - postgres:omh-postgres
   ports:
-    - "8082:8082"
+    - "8085:8082"
 
 resource:
   image: openmhealth/omh-dsu-resource-server:latest
@@ -18,4 +18,4 @@ resource:
     - mongo:omh-mongo
     - postgres:omh-postgres
   ports:
-    - "8083:8083"
+    - "8086:8083"
